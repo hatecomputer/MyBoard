@@ -1,0 +1,104 @@
+body{
+    background-color:#f5f6f7;   
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    border-bottom:1px solid #848484;
+}
+
+.form-group{
+    width: 335px;
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+
+.id-text{
+    width: 335px;
+    height: 30px;
+}
+
+.adr-text {
+    width: 335px;
+    height: 30px;
+}
+
+.adr-value{
+    width: 335px;
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.adr-value2{
+    height: 23px;
+}
+
+.adr-btn{
+    width: 335px;
+    height: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline;
+}
+
+.adr-group{
+    width: 335px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:45px;
+}
+
+.join-btn-block{
+    width: 335px;
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.join-btn{
+    border:1px solid #03c75b;
+    background-color: #03c75b;
+    width:350px;
+    height: 50px;
+    font-size:120%;
+    color: white;
+    text-align: center;
+    Cursor:pointer;
+}
+
+.login-btn{
+    width: 350px;
+    display: flex;
+    justify-content:space-around;
+    margin: 10px auto;
+    align-items: center;
+    position: relative; /*자식 요소 위치 세세하게 설정용(부모)*/
+}
+
+.login-btn-set{
+    border: none;
+    background-color:#f5f6f7;
+    color : gray;
+    font-size:120%;
+    transform: translate(-46%,-50%);
+    top:50%;
+    left:50%;
+    Cursor:pointer; /*버튼 위로가면 커서가 변한다*/
+    position: absolute; /*자식 요소 위치 세세하게 설정용(부모)*/
+}
+
+.ERROR-text{
+    display: block;
+    margin:20px auto 20px;
+    text-align:center;
+    bottom:5px;
+    color:gray;
+}

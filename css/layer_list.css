@@ -1,0 +1,18 @@
+*{
+    margin: 10;
+    padding:10;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+}
+ol{
+    display: inline-block;
+    display: none;
+}
+.sub1,.sub2,.sub3{
+    display: inline-block;
+}
+

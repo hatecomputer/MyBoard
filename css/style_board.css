@@ -1,0 +1,112 @@
+body{
+    background-color:#f5f6f7;   
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    border-bottom:1px solid #848484;
+}
+
+.board-top {
+    width : 80%;
+    height: 50px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+.board-title-bar {
+    position: relative;
+    width : 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid gray;  
+}
+
+/*제목*/
+.board-title-bar1 { 
+    width : 50%;
+}
+/*작성자*/
+.board-title-bar2 {
+    width : 10%
+}
+/*날짜*/
+.board-title-bar3 {
+    width : 20%
+}
+/*조회수*/
+.board-title-bar4 {
+    width : 5%
+}
+/*좋아요수*/
+.board-title-bar5 {
+    width : 5%
+}
+
+
+/*게시물 출력*/
+.board-main {
+    width : 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;  
+}
+
+/*제목*/
+.board-main1 { 
+    width : 50%;
+}
+/*작성자*/
+.board-main2 {
+    width : 10%
+}
+/*날짜*/
+.board-main3 {
+    width : 20%
+}
+/*조회수*/
+.board-main4 {
+    width : 5%
+}
+/*좋아요수*/
+.board-main5 {
+    width : 5%
+}
+
+
+
+.paging-num {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

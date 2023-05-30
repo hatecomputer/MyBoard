@@ -1,0 +1,100 @@
+body{
+    background-color:#f5f6f7;   
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    border-bottom:1px solid #848484;
+}
+
+
+/*-------login.php----------*/
+.form-group{
+    width: 335px;
+    height: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.login-button{
+    text-align:center;
+}
+
+.btn-primary{
+    border:1px solid #03c75b;
+    background-color: #03c75b;
+    width:350px;
+    height: 50px;
+    font-size:120%;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    Cursor:pointer;
+}
+
+.btn-primary2{ 
+    border: none;
+    background-color:#f5f6f7;
+    color : gray;
+    height: 50px;
+    font-size:120%;
+    margin-left:auto;
+    margin-right:2px;
+    Cursor:pointer;
+    position: absolute; /*자식요소 부모위치에서만 움직일 수 있다.*/
+    transform: translate(-110%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.btn-primary3{
+    border: none;
+    background-color:#f5f6f7;
+    color : gray;
+    height: 50px;
+    font-size:120%;
+    margin-left:2px;
+    margin-right:auto;
+    Cursor:pointer; /*버튼 위로가면 커서가 변한다*/
+    position: absolute;  /*자식요소 부모위치에서만 움직일 수 있다.*/
+    transform: translate(5%,-50%); /*자신의 크기 기준으로 움직인다*/
+    top: 50%; /*top으로 50%만큼 움직인다*/
+    left: 50%; /*left에서 50%만큼 움직인다*/
+}
+
+.btn-btn {
+    width: 350px;
+    display: flex;
+    justify-content:space-around;
+    margin: 10px auto;
+    align-items: center;
+    position: relative; /*자식 요소 위치 세세하게 설정용(부모)*/
+}
+
+.btn-btn>p {
+    font-size: 25px;
+    color : gray;
+}
+
+.join-button{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    Cursor:pointer;
+}
+
+.inquiry-button{
+    display:flex; /*자신의 크기 안에 자식을 넣는다*/
+    flex-direction:row; /*자식 나열할때 아래로 나열*/
+    justify-content:center; /*가로 중앙 정렬*/
+    Cursor:pointer;
+}
+
+.footer{
+    margin:0 auto;
+    text-align:center;
+    bottom:5px;
+    color:gray;
+}
